@@ -30,7 +30,7 @@ X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2,stratify=Y,ra
 
 
 #Training the model
-model= svm.SVC(kernel='linear')
+model= svm.SVC(kernel='linear',probability=True)
 model.fit(X_train,Y_train)
 
 #training data accuracy
@@ -47,7 +47,7 @@ model.fit(X_train,Y_train)
 with open('diabetes_model.pkl', 'wb') as f:
     pk.dump(model, f)
 
-with open('scalar.pkl', 'wb') as f:
+with open('scaler.pkl', 'wb') as f:
     pk.dump(scaler, f)
 
 print('Model saved successfullay')
