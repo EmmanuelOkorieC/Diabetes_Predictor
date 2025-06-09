@@ -1,6 +1,6 @@
 # Diabetes Prediction App
 
-**Live Demo**: [Click here to try it out]([https://your-streamlit-app-url](https://diabetespredictor-5bwtpjhefnmc6tsi4fgu4d.streamlit.app/))  
+**Live Demo**: [Click here to try it out](https://diabetespredictor-5bwtpjhefnmc6tsi4fgu4d.streamlit.app)  
 
 ---
 
@@ -44,7 +44,7 @@ The app returns:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Pandas**, **NumPy**
@@ -55,11 +55,11 @@ The app returns:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
-├── app.py # Streamlit app script
-├── diabetes_model.pkl # Trained ML model
-├── scaler.pkl # StandardScaler object
-├── requirements.txt # List of Python dependencies
-├── README.md # Project documentation
-└── diabetes.csv # Dataset used for training
+app.py # Streamlit app script
+diabetes_model.pkl # Trained ML model
+scaler.pkl # StandardScaler object
+requirements.txt # List of Python dependencies
+README.md # Project documentation
+diabetes.csv # Dataset used for training
