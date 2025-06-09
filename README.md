@@ -57,9 +57,9 @@ The app returns:
 
 ## Project Structure
 
-app.py # Streamlit app script
-diabetes_model.pkl # Trained ML model
-scaler.pkl # StandardScaler object
-requirements.txt # List of Python dependencies
-README.md # Project documentation
-diabetes.csv # Dataset used for training
+- app.py # Streamlit app script
+- diabetes_model.pkl # Trained ML model
+- scaler.pkl # StandardScaler object
+- requirements.txt # List of Python dependencies
+- README.md # Project documentation
+- diabetes.csv # Dataset used for training
